@@ -1,0 +1,239 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body{
+    background-image: url(../img/Justin/38-384777_s\ \(1\).jpg);
+    background-size: cover;
+}
+
+/*
+.centrar{
+    width: 50%;
+    height: 50%;
+    margin: 2% 25%;
+}
+*/
+
+.navbar-brand{
+    font-family: font-family: 'Allura', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Rubik Iso', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'WindSong', cursive; 
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+/************************************************ Quienes Somos ************************************************************/
+h1{
+    text-align: center;
+    margin-top: 2%;
+    color: white;
+    font-family: font-family: 'Allura', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Rubik Iso', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'WindSong', cursive;
+    font-family: 'Yuji Syuku', serif;;
+}
+
+h2, p, h3, li{
+    Color: white;
+    font-family: font-family: 'Allura', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Rubik Iso', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'WindSong', cursive;
+    font-family: 'Yuji Syuku', serif;;
+}
+
+.parrafoQuienesSomos{
+    color: white;
+    margin: 5%;
+    padding: 5%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.143);
+}
+
+@media (min-width:1024px){
+    .textoCarrusel{
+        padding: 2%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 2% 2% 10% 2%;
+    }
+
+    .parrafoQuienesSomos{
+        width: 50%;
+    }
+    .centrar{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media (min-width:1442px){
+    .textoCarrusel{
+        display: flex;
+        flex-direction: row;
+        margin: 2%;
+    }
+
+    .parrafoQuienesSomos{
+        width: 30%;
+    }
+    .centrar{
+        width: 70%;
+        height: 50%;
+    }
+}
+
+/*********************************************** Tienda *********************************************************************/
+
+.articulos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.art{
+    margin: 1%;
+}
+
+.paginationn{
+    align-items: center;
+}
+/**
+
+@media (min-width:768px){
+    .articulos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+**/
+
+.articulos p{
+    color: rgb(103, 208, 159);
+}
+
+.articulos h5{
+    text-align: center;
+}
+
+/********************************************** Sucursales ************************************************/
+
+.TextoIframeContacto {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.143);
+    align-items: center;
+}
+
+.TextoIframeContacto{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.TextoContacto{
+    margin: 5%;
+}
+
+.IframeContacto iframe{
+    width: 250px;
+    height: 250px;
+    margin: auto 10px;
+}
+
+@media (max-width:586px){
+    .TextoIframeContacto{
+        flex-direction: column;
+    }
+}
+
+
+/********************************************** Plantemos *********************************************/
+
+.TextoImagenesFormularioPlantemos{
+    display: flex;
+    flex-direction: row;
+    width: 86%;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.143);
+    align-items: center;
+}
+
+.ParrafoPlantemos{
+    margin: 3%;
+}
+
+@media (max-width:768px){
+    .TextoImagenesFormularioPlantemos{
+        flex-direction: column;
+    }
+}
+
+.h2Plantamos{
+    margin-top: 4%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.formularioDonación{
+    width: 86%;
+    padding: 5%;
+    margin:auto;
+    margin-bottom: 5%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.143);
+    color: white;
+    font-family: font-family: 'Allura', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Rubik Iso', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'WindSong', cursive;
+    font-family: 'Yuji Syuku', serif;;
+}
+
+
+/********************************************** Footer ************************************************/
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.iconosRedes{
+    width: 30%;
+    margin: auto;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
